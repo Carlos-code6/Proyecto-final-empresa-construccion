@@ -1,0 +1,54 @@
+.titulo-nuestrasobras {
+    font-size: 30px;
+    text-align: center;
+}
+.titulo-obras {
+    background-color: beige;
+    text-align: center;
+}
+.texto-obras {
+    text-align: center;
+}
+
+.galeria-contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+  padding: 20px;
+}
+
+.imagenes-galeria {
+  
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out;
+}
+
+.imagenes-galeria:hover {
+  transform: scale(1.25);
+}
+
+@media (min-width: 621px) and (max-width: 1260px) {
+.galeria-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.galeria-contenedor img {
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+}
+@media (max-width: 620px) {
+.galeria-contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.galeria-contenedor img {
+  width: 160px;
+  height: auto;
+  margin: auto;
+}
+}

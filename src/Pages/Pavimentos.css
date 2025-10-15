@@ -1,0 +1,89 @@
+.cabecera-pavimentos {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+}
+.titulo-pavimentos {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.texto-pavimentos {
+    margin-top: 10px;
+    padding-top: 0;
+    width: 60%;
+}
+.banner-pavimentos {
+    font-size: 16px;
+    width: 100%;
+    color: white;
+    padding: 3px;
+    margin-bottom: 10px;
+    background-color: #69cc4b;
+}
+.card-pavimentos {
+    border: 1px solid rgb(153, 153, 196);
+    width: 350px;
+}
+.categorias-pavimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    place-items: center;
+    margin-top: 15px;
+}
+.imagenes-categoria-pavimentos {
+    width: 350px;
+    height: 200px;
+}
+.titulo-cards {
+    color: rgb(214, 148, 25);
+    font-size: 20px;
+}
+.texto-cards {
+    display: flex;
+    margin-left: 5px;
+    gap: 50px;
+    flex-direction: row;
+    font-size: 14px;
+}
+.precio-pavimentos {
+    font-size: 30px;
+    color: rgb(107, 107, 101);
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+.boton-pavimentos {
+    background: linear-gradient(135deg, #91867f, #2f2cdf);
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 10px;
+    
+}
+.boton-pavimentos:hover {
+    transform: translateY(+3px);
+    box-shadow: 0 6px 14px rgba(14, 16, 173, 0.6);
+}
+/* Pantallas pequeñas */
+
+@media (max-width: 1150px) {
+    .categorias-pavimentos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        gap: 50px;
+    }    
+}
+@media (max-width: 815px) {
+    .categorias-pavimentos {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 470px) {
+    .texto-pavimentos {
+        width: 90%;
+    }
+}

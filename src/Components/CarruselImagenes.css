@@ -1,0 +1,38 @@
+.carrusel-contenedor {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height:650px;    
+}
+.carrusel-contenedor img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+/* Tablet */
+@media (max-width: 768px) {
+  .carrusel-contenedor {
+    height: 500px;
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+  .carrusel-contenedor {
+    display: block;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    height: auto;
+  }
+
+  .carrusel-contenedor img {
+    width: 100%;
+    height: auto;
+  }
+}

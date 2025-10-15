@@ -1,0 +1,121 @@
+/*
+.contenedor-logo {
+    display: grid;
+    background:  rgb(192, 189, 211);
+    place-items: center;
+}
+.contenedor-modulos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.logo-servicios {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+   
+}
+.titulo-section-servicios {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: white;
+}
+.servicios-contenedor {
+    background: linear-gradient(rgb(230, 234, 236), rgb(244, 247, 248));
+}
+.revestimientos-titulo {
+    margin-top: 25px;
+    text-align: center;
+}
+.imagen-revestimientos {
+    display: block;
+    width: 300px;
+    height: 180px;
+    margin: auto;
+    border-radius: 90%;
+}
+.texto-revestimientos {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+.fachadas-titulo {
+    margin-top: 25px;
+    text-align: center;
+}
+.imagen-fachadas {
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin: auto;
+    border-radius: 90%;
+}
+.texto-fachadas {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+.interiores-titulo {
+    margin-top: 25px;
+    text-align: center;
+}
+.imagen-interiores {
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin: auto;
+    border-radius: 90%;
+}
+.texto-interiores {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+.aislamientos-titulo {
+    margin-top: 25px;
+    text-align: center;
+}
+.imagen-aislamientos {
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin: auto;
+    border-radius: 90%;
+}
+.texto-aislamientos {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+@media (max-width: 670px) {
+.contenedor-modulos {
+    grid-template-columns: 1fr;
+}
+.titulo-section-servicios {
+    text-align: center;
+}
+
+}
+
+@media (max-width: 480px) {
+.contenedor-modulos {
+    grid-template-columns: 1fr;
+}
+.titulo-section-servicios {
+    text-align: center;
+}
+
+}
+*/

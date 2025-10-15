@@ -1,0 +1,66 @@
+.footerComponent {
+    background-color: #aeb4b2;   
+}
+.footerContainer {
+    display: flex;
+    margin-top: 2.5em;
+    justify-content: center; 
+}
+.politicas {
+    padding-left: 10px;
+}
+.informacionLegal {
+    
+    padding-left: 16em;
+}
+.delegaciones {  
+    padding-left: 16em;
+    padding-right: 10px;
+}
+.footer-rrss {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    border-top: 1px solid rgb(116, 113, 113);
+}
+.footer-rrss img {
+    width: 40px;
+    height: auto;
+}
+.titulo-footer-rrss {
+    font-weight: bold;
+    margin-top: 11px;
+    color:rgb(39, 38, 38)
+}
+/*Pantallas pequeñas*/
+@media (max-width: 920px) {
+    .footerContainer {
+        text-align: center;
+    }
+    .informacionLegal {
+        padding-left: 10em;
+    }
+    .delegaciones {
+        padding-left: 10em;
+    }
+}
+@media (max-width: 690px) {
+    .footerContainer { 
+        text-align: center;
+    }
+    .footer-rrss {
+        margin-top: 0px;
+    }
+    .footer-rrss img {
+        width: 30px;
+        height: auto;
+    }
+    .informacionLegal {
+        padding-left: 1em;
+    }
+    .delegaciones {
+        padding-left: 1em;
+    }
+}

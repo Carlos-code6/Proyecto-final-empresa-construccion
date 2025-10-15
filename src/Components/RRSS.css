@@ -1,0 +1,36 @@
+.rrss-contenedor {
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 3em;
+    align-items: center;
+    background-color: rgb(192, 189, 211);
+    color: rgb(26, 62, 95);
+}
+.titulo-rrss {
+    color: rgb(26, 62, 95);
+}
+/*Pantalla más pequeñas*/
+@media (max-width: 720px) {
+    .rrss-contenedor {
+        margin-top: 8px;
+        gap: 5px;
+        flex-direction: column;
+        background-color: white;
+        border: 1px solid black;
+        padding-bottom: 10px;
+    }
+
+    .rrss-contenedor img {
+        width: 60px;
+        height: 60px;
+    }
+    .titulo-rrss {
+        font-size: 22px;
+        background-color: rgb(192, 189, 211);
+        padding: 6px;
+        border-radius: 15px;
+
+    }
+    }

@@ -1,0 +1,43 @@
+
+.imagen-principal {
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.texto-objetivos {
+    text-align: center;
+}
+.banner-qs {
+
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(240, 147, 41);
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 1300px) {
+
+.imagen-principal {
+    height: auto;
+}
+
+}
+@media (max-width: 1250px) {
+    .banner-qs {
+     font-size: 24px;
+}
+}
+
+@media (max-width: 480px) {
+.imagen-principal {
+    height: auto;
+}
+
+}

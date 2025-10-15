@@ -1,0 +1,121 @@
+.titulo-historia {
+    text-align: center;
+    color: rgb(66, 66, 150);
+    background-color: rgb(183, 183, 197);
+    border-radius: 20px;
+    font-size: 33px;
+}
+.texto-historia {
+    text-align: center;
+}
+.titulo-mision {
+    text-align: center;
+    color: rgb(66, 66, 150);
+    font-size: 33px;
+    background-color: rgb(183, 183, 197);
+    border-radius: 20px;
+}
+.imagen-PrimerasObras {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 550px;
+    height: auto;
+    border-radius: 50%;
+}
+.imagen-nuevo-almacen {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    width: 550px;
+    height: auto;
+    border-radius: 50%;
+}
+.distincion-calidad {
+    display: flex;
+}
+.imagen-sello-calidad {
+    width: 150px;
+    height: auto;
+}
+.texto-sello {
+    padding-top: 35px;
+    text-align: center;
+}
+.distincion-transporte {
+    display: flex;
+}
+.imagen-transporte-distincion {
+    width: 150px;
+    margin-left: 15px;
+    height: auto;
+}
+.texto-transporte {
+    padding-top: 35px;
+    text-align: center;
+}
+.distincion-eficiencia {
+    display: flex;
+    margin-top: 8px;
+}
+.imagen-eficiencia {
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+}
+.texto-eficiencia {
+    text-align: center;
+    padding-top: 35px;
+}
+
+/*Pantallas pequeñas*/
+@media (max-width: 570px) {
+    .distincion-calidad {
+        place-items: center;
+        flex-direction: column;
+    }
+    .titulo-historia {
+        font-size: 24px;
+    }
+    .titulo-mision {
+        font-size: 24px;
+    }
+    .imagen-PrimerasObras {
+        width: 350px;
+        height: auto;
+    }
+    .imagen-nuevo-almacen {
+        width: 350px;
+        height: auto;
+    }
+    .texto-sello {
+        padding-top: 0px;
+    }
+    .imagen-sello-calidad {
+        width: 150px;
+        height: auto;
+    }
+    .distincion-transporte {
+        flex-direction: column;
+        place-items: center;
+    }
+    .texto-transporte {
+        padding-top: 0px;
+    }
+    .distincion-eficiencia {
+        flex-direction: column;
+        place-items: center;
+    }
+    .imagen-eficiencia {
+        width: 150px;
+        height: auto;
+        
+    }
+    .texto-eficiencia {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+}

@@ -1,0 +1,97 @@
+.contenedor-formulario {
+    display: flex;
+    padding-top: 55px;
+    margin-bottom: 55px;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    width: 450px;
+    gap: 2em;
+    color: blue;
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 45px;
+}
+.formulario label {
+        color: black;
+        font-weight: bold;       
+}
+.formulario input {
+    color: black;
+    padding: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+.comentarios-formulario-grande {
+    width: 180px;
+    height: 80px;
+}
+
+.boton-formulario {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+.conocenos {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    flex-direction: column;
+}
+.titulo-conocenos {
+    color: rgb(26, 62, 95);
+    font-size: 40px;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(192, 189, 211);
+    border-radius: 15px;
+}
+.subtitulo-conocenos {
+    display: flex;
+    font-size: 18px;
+    color: rgb(90, 84, 84);
+    text-align: center;
+}
+.texto-conocenos {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-style: bold;
+    width: 230px;
+    text-align: center;
+    background-color: rgb(67, 105, 105);
+    border-radius: 5px;
+}
+
+/*Pantallas pequeñas*/
+@media (max-width: 520px) {
+.contenedor-formulario {
+    flex-direction: column;
+}
+form {
+    width: auto;
+    margin-top: 0px;
+}
+.titulo-conocenos {
+    width: 300px;
+    font-size: 25px;
+    margin-top: 1px;
+}
+.subtitulo-conocenos {
+    width: 300px;
+}
+.texto-conocenos {
+    margin-bottom: 0px;
+}
+}

@@ -1,0 +1,151 @@
+.contenedor-logo {
+    display: grid;
+    background: linear-gradient(rgb(214, 146, 67), rgb(204, 187, 151)) ;
+    place-items: center;
+}
+.contenedor-boton-servicios {
+    text-align: center;
+}
+.boton-servicios {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: linear-gradient(135deg, #91867f, #2f2cdf);
+    text-decoration: none;
+    border-radius: 35px;
+    color:white;
+    font-size: 28px;
+    cursor:pointer;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 3px solid rgb(43, 1, 228);
+}
+.boton-servicios:hover {
+    transform: translateY(+3px);
+    box-shadow: 0 6px 14px rgba(14, 16, 173, 0.6);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.contenedor-modulos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.logo-servicios {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+   
+}
+.titulo-section-servicios {
+    margin-top: 0px;
+    padding-top: 0px;
+    color: white;
+}
+.servicios-contenedor {
+    background: linear-gradient(rgb(230, 234, 236), rgb(244, 247, 248));
+}
+.revestimientos-titulo {
+    margin-top: 25px;
+    text-align: center;
+}
+.imagen-revestimientos {
+    display: block;
+    width: 300px;
+    height: 180px;
+    margin: auto;
+    border-radius: 90%;
+}
+.texto-revestimientos {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+.fachadas-titulo {
+    margin-top: 25px;
+    text-align: center;
+}
+.imagen-fachadas {
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin: auto;
+    border-radius: 90%;
+}
+.texto-fachadas {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+.interiores-titulo {
+    margin-top: 25px;
+    text-align: center;
+}
+.imagen-interiores {
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin: auto;
+    border-radius: 90%;
+}
+.texto-interiores {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+.aislamientos-titulo {
+    margin-top: 25px;
+    text-align: center;
+}
+.imagen-aislamientos {
+    width: 300px;
+    height: 180px;
+    display: block;
+    margin: auto;
+    border-radius: 90%;
+}
+.texto-aislamientos {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+@media (max-width: 670px) {
+.contenedor-modulos {
+    grid-template-columns: 1fr;
+}
+.titulo-section-servicios {
+    text-align: center;
+}
+
+}
+
+@media (max-width: 480px) {
+
+.contenedor-modulos {
+    grid-template-columns: 1fr;
+}
+.boton-servicios {
+    font-size: 24px;
+    width: 90%;
+    border-radius: 35px;
+}
+.titulo-section-servicios {
+    text-align: center;
+}
+
+}

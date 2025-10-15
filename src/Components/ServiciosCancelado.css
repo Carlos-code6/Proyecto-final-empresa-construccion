@@ -1,0 +1,59 @@
+
+.Titulo-servicios {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    color: rgb(14, 35, 105);
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.box1-obra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding-bottom: 30px;
+}
+.fachada {
+    width: 380px;
+    height: 200px;
+}
+.aislamientos {
+    width: 380px;
+    height: 200px;
+}
+.interiores {
+    width: 380px;
+    height: 200px;
+}
+.alicatados {
+    width: 380px;
+    height: 200px;
+}
+.subtitulo-servicios {
+    display: flex;
+    background-color: rgb(192, 189, 211);
+    justify-content: center;
+}
+
+/* Tablet */
+
+@media (max-width: 1280px) {
+
+.obra-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box1-obra {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+}
+/* Móviles pequeños */
+@media (max-width: 480px) {
+
+
+}

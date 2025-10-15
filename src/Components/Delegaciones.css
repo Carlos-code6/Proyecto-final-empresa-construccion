@@ -1,0 +1,39 @@
+.delegaciones-contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 12em;
+    padding-top: 25px;
+    text-align: center;
+}
+.titulo-delegaciones {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 30px;
+}
+.delegacion-Sevilla {
+    font-weight: bold;
+}
+.delegacion-Cordoba {
+    font-weight: bold;
+}
+.delegacion-Madrid {
+    font-weight: bold;
+}
+/*Pantallas pequeñas*/
+@media (max-width: 920px) {
+    .delegaciones-contenedor {
+        flex-direction: column;
+        gap: 3em;
+        
+    }
+    .delegacion-Sevilla {
+        background-color: rgb(231, 235, 233);
+    }
+    .delegacion-Cordoba {
+        background-color: rgb(231, 235, 233);
+    }
+    .delegacion-Madrid {
+        background-color: rgb(231, 235, 233);
+    }
+}

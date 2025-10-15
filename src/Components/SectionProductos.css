@@ -1,0 +1,119 @@
+.sectionContainer {
+    
+    border-radius: 20px;
+}
+.Titulo-productos-inicio {
+    display: flex;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(66, 66, 150);
+    border-radius: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.boxes1 {
+    justify-content: center;
+    display: flex;
+    gap: 80px;
+} 
+
+.imagenRevestimientos {
+    width: 580px;
+    height: 300px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+.imagenRevestimientos:hover {
+    filter: contrast(1.2) brightness(1.1);
+    transform: scale(1.03);
+}
+.imagenPavimentos {
+    width: 580px;
+    height: 300px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+.imagenPavimentos:hover {
+    filter: contrast(1.2) brightness(1.1);
+    transform: scale(1.03);
+}
+.boxes2 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.imagenBaneras {
+    width: 580px;
+    height: 300px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+.imagenBaneras:hover {
+    filter: contrast(1.2) brightness(1.1);
+    transform: scale(1.03);
+}
+.imagenMamparas {
+    width: 580px;
+    height: 300px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+.imagenMamparas:hover {
+    filter: contrast(1.2) brightness(1.1);
+    transform: scale(1.03);
+}
+/* Tablet */
+@media (max-width: 1250px) {
+  
+  .Titulo-productos-inicio {
+    padding: 4px;
+  }
+  .sectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .boxes1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .imagenRevestimientos {
+    margin-left: 0;
+    padding-bottom: 46px;
+  }
+  .imagenPavimentos {
+    margin-left: 0;
+  }
+    .boxes2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .imagenBaneras {
+    margin-left: 0;
+    padding-bottom: 46px;
+  }
+  .imagenMamparas {
+    margin-left: 0;
+    
+  }
+}
+
+/* Móviles pequeños */
+@media (max-width: 650px) {
+
+  .sectionContainer img {
+    width: 350px;
+    height: auto;
+  }
+  .Titulo-productos-inicio {
+    margin-top: 0px;
+    font-size: 25px;
+    
+  }
+}

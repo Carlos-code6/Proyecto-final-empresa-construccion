@@ -1,0 +1,112 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 2px;
+  padding: 10px 20px;
+  position: relative;
+}
+.logotipo p {
+  color: rgb(255, 255, 255);
+}
+/* Logo y nombre */
+.logotipo {
+  display: flex;
+  margin-left: 150px;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: oblique;
+  color: rgb(255, 255, 255);
+}
+
+.logotipo img {
+  height: 40px;
+  width: auto;
+}
+
+/* Enlaces de navegación */
+.nav-links {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  margin-right: 150px;
+  background-color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.nav-links.show {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px 0;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: rgb(168, 206, 231);
+  font-weight: bolder;
+}
+
+/* Botón hamburguesa */
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  width: 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.bar {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+
+/* Animación al abrir */
+.bar.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.bar.open:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Responsive: mostrar enlaces en horizontal en pantallas grandes */
+@media (min-width: 1099px) {
+  .menu-toggle {
+    display: none;
+    background-color: black;
+  }
+  .nav-links {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    gap: 20px;
+  }
+  .nav-link {
+    padding: 0;
+  }
+}
