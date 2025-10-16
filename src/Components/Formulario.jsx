@@ -86,7 +86,7 @@ export default function FormularioContacto() {
           <input type="text" value={nombre} onChange={(e) => setNombre(e.target.value)} />
         </label>
         <label>
-          Apellidos*{" "}
+          Apellidosss*{" "}
           <input type="text" value={apellidos} onChange={(e) => setApellidos(e.target.value)} />
         </label>
         <label>
